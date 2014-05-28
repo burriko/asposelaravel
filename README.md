@@ -9,10 +9,9 @@ Installation
 Add the following line to your composer.json file.
 
 <pre>
-{
-    require: {
-        "aspose/cloud-laravel": "dev-master"
-    }
+require: {
+"aspose/cloud-sdk-php": "dev-master",        
+"aspose/cloud-laravel": "dev-master"
 }
 </pre>
 
@@ -31,10 +30,10 @@ Add package to the list of providers. In config/app.php, add the following line 
 
 Publish config files from the terminal.
 <pre>
-php artisan config:publish aspose/cloud
+php artisan config:publish aspose/cloud-laravel
 </pre>
 
-Edit the new config file in the config/packages/aspose/cloud and enter your data.
+Edit the new config file in the config/packages/aspose/cloud-laravel and enter your data.
 
 Usage
 ----------------------------------
