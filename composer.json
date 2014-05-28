@@ -1,0 +1,26 @@
+{
+    "name": "aspose/cloud-laravel",
+    "description": "This is a Laravel Package to use Aspose cloud in Laravel applications quickly and easily. Aspose for Cloud is a REST API to work with a number of file formats including word precessing documents, spreadsheets, presentations, PDFs and images.",
+"keywords": ["Aspose", "Cloud", "SDK", "Laravel"],
+    "homepage": "https://github.com/asposeforcloud/asposelaravel",
+    "authors": [
+        {
+            "name": "Masood Anwer",
+            "email": "masood.anwer@aspose.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*",
+	    "aspose/cloud-sdk-php": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Aspose\\Cloud\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
