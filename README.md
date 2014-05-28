@@ -10,8 +10,8 @@ Add the following line to your composer.json file.
 
 <pre>
 require: {
-"aspose/cloud-sdk-php": "dev-master",        
-"aspose/cloud-laravel": "dev-master"
+	"aspose/cloud-sdk-php": "dev-master",        
+	"aspose/cloud-laravel": "dev-master"
 }
 </pre>
 
@@ -19,7 +19,7 @@ require: {
 Run from terminal.
 
 <pre>
-    composer update
+composer update
 </pre>
 
 
@@ -34,6 +34,15 @@ php artisan config:publish aspose/cloud-laravel
 </pre>
 
 Edit the new config file in the config/packages/aspose/cloud-laravel and enter your data.
+<pre>
+return array(
+	'baseUri' => 'http://api.aspose.com/v1.1',
+	'appSID' => '',
+	'appKey' => ''
+);
+</pre>
+
+In config/packages/aspose, rename cloud-laravel to cloud
 
 Usage
 ----------------------------------
@@ -44,3 +53,5 @@ Aspose::get($moduleName, $className, $fileName);
 </pre>
 
 This will return you object of class and you can access properties and methods of class.
+
+Please visit Wiki for articles and examples.
