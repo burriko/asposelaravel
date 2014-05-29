@@ -54,4 +54,9 @@ Aspose::get($moduleName, $className, $fileName);
 
 This will return you object of class and you can access properties and methods of class.
 
-Please visit Wiki for articles and examples.
+Please visit [wiki](https://github.com/asposeforcloud/asposelaravel/) for articles and examples.
+
+Start a Free Trail Today
+========================
+
+Start a free trial today – all you need is to [sign up](https://cloud.aspose.com/SignUp) with Aspose for Cloud service. Once you have signed up, you are ready to try powerful file processing features offered by Aspose for Cloud.
